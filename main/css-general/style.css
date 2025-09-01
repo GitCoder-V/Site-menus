@@ -1,7 +1,7 @@
-@import "/_overall.css";
-@import "/_header.css";
-@import "/_main.css";
-@import "/_footer.css";
+@import "_overall.css";
+@import "_header.css";
+@import "_main.css";
+@import "_footer.css";
 
 @font-face {
   font-family: "Tinos";
