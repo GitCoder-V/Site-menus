@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body {
+	font: 400 14px/24px "Tinos", sans-serif;
+	color: #94989b;
+	letter-spacing: 0.02em;
+}
+@media (max-width: 479px) {
+	body {
+		font: 400 17px/26px "Tinos", sans-serif;
+
+	}
+}
+footer,
+h4,
+p{display: block;}
+img {
+	max-width: 100%;
+	object-fit: cover; /*-cover — картинка без нарушения пропорций заполнит всю доступную область, обрезая всё ненужное. 
+	                   Свойство object fit работает, только если мы задаем свойства width и height .-*/
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: all 1s ease-in-out;
+  }
+a:hover{color: #f85252;}
+ul li{list-style: none; vertical-align: top;}
+
+

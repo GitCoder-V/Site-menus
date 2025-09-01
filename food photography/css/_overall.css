@@ -1,0 +1,7 @@
+.grid {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr minmax(auto, 1170px) 1fr;
+  grid-template-rows: minmax(100px, auto) 1fr minmax(150px, auto);
+  grid-template-areas: ". header ." ". main ." "footer footer footer";
+}

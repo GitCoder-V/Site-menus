@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 400 14px/24px "Tinos", sans-serif;
+  color: #94989b;
+  letter-spacing: 0.02em;
+}
+footer,
+h4,
+p {
+  display: block;
+}
+img {
+  max-width: 100%;
+  object-fit: cover; /*-cover — картинка без нарушения пропорций заполнит всю доступную область, обрезая всё ненужное.-*/
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 1s ease-in-out;
+}
+a:hover {
+  color: #f85252;
+  text-decoration: none;
+}
+a:hover span {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+  vertical-align: top;
+}
