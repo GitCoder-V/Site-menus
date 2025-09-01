@@ -1,9 +1,0 @@
-.grid__container {
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 1fr minmax(auto, 1170px) 1fr;
-}
-.grid__2 {
-  display: grid;
-  grid-template-columns: 1fr minmax(auto, 1170px) 1fr;
-}

@@ -1,6 +1,0 @@
-.grid {
-  display: grid;
-  min-height: 100vh;
-  grid-template: minmax(100px, auto) 1fr minmax(150px, auto) / 1fr;
-  grid-template-areas: "header" "main" "footer";
-}
